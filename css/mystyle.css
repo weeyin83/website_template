@@ -47,11 +47,68 @@ iframe {
 	background: #343A40;
 }
 
-.navbar-toggler:hover,
-.navbar-toggler:focus {
-	background: #282D32;
+.navbar-toggler {
+	border: none;
+	padding: 0;
 }
 
 .carousel {
 	margin: 2em auto;
+}
+
+/******* FONT AWESOME STYLING *******/
+
+.fa-bars {
+	color: white;
+}
+
+.social-icons li {
+	list-style-type: none;
+	float: left;
+	margin: 0 5px 5px 0;
+}
+
+.fab {
+	box-sizing: border-box;
+	padding: 10px;
+	width: 60px;
+	background: #444444;
+	color: #ffffff;
+	text-decoration: none;
+	text-align: center;
+	font-size: 26px;
+}
+
+.fab:hover {
+	text-decoration: none;
+}
+
+.fa-facebook-f:hover,
+.fa-facebook-f:focus {
+	background: #3B5998;
+	color: white;
+}
+
+.fa-instagram:hover,
+.fa-instagram:focus {
+	background: #125688;
+	color: white;
+}
+
+.fa-twitter:hover,
+.fa-twitter:focus {
+	background: #1da0f2;
+	color: white;
+}
+
+.fa-youtube:hover,
+.fa-youtube:focus {
+	background: #bb0000;
+	color: white;
+}
+
+.fa-linkedin-in:hover,
+.fa-linkedin-in:focus {
+	background: #0073b0;
+	color: white;
 }
