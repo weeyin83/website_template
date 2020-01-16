@@ -30,6 +30,7 @@ h1 {
 	padding: 1em 0;
 	text-align: center;
 	font-size: 3.75em;
+	word-break: break-all;
 }
 h2 {
 	padding-top: 0.6em;
@@ -71,7 +72,8 @@ iframe {
 .fab {
 	box-sizing: border-box;
 	padding: 10px;
-	width: 60px;
+	min-width: 60px;
+	max-width: 70px;
 	background: #444444;
 	color: #ffffff;
 	text-decoration: none;
