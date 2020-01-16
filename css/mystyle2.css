@@ -87,12 +87,17 @@ iframe {
 	color: white;
 }
 
-.fab {
+.social-icons li {
+	list-style-type: none;
+	float: left;
 	margin: 0 5px 5px 0;
+}
+
+.fab {
 	box-sizing: border-box;
 	padding: 10px;
 	width: 50px;
-	background: #ffffff;
+	background: #FFFFFF;
     	color: #38005b;
 	text-decoration: none;
 	text-align: center;
